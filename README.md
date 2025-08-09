@@ -51,9 +51,9 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-git clone https://github.com/AkshayMenon8515/useless_project_temp_nooobieeeees.git
-pip install flask
-python app.py
+git clone https://github.com/AkshayMenon8515/useless_project_temp_nooobieeeees.git,
+pip install flask,
+python app.py,
 http://127.0.0.1:5000
 
 # Run
@@ -104,9 +104,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Amal N V: JavaScript and Python
+- Akshay S Menon: HTML and CSS
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
