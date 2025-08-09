@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Cursor Crafter</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <h1 class="app-title">Cursor Crafter</h1>
+    <h2>Shape Accuracy Game</h2>
+
+    <div class="controls">
+      <label>Shape:
+        <select id="shapeSelect">
+          <option value="circle">Circle</option>
+          <option value="rectangle">Rectangle</option>
+          <option value="triangle">Triangle</option>
+        </select>
+      </label>
+      <button id="clearBtn">Clear</button>
+      <button id="scoreBtn">Score</button>
+    </div>
+
+    <div class="canvas-wrap">
+      <canvas id="drawCanvas"></canvas>
+      <canvas id="overlayCanvas" class="overlay"></canvas>
+    </div>
+
+    <div class="info">
+      <div>Score: <strong id="scoreDisplay">—</strong></div>
+      <div id="debug" class="debug"></div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

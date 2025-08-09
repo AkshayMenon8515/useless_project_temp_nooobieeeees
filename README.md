@@ -1,34 +1,52 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Cursor Crafter 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: 
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Amal N V - SCMS School Of Engineering and Technology
+- Member 2: Akshay S Menon - SCMS School Of Engineering and Technology
 
 ### Project Description
-[2-3 lines about what your project does]
+This project is a **Shape Accuracy Drawing Game** where players try to draw a circle, rectangle, or triangle as precisely as possible. The system scores the drawing based on accuracy, shows a visual comparison with the ideal shape, and stores high scores using a Flask + SQLite backend.
+
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People around the world are struggling because they can’t measure how accurately they can draw shapes with a mouse or touchpad, leaving countless circles lopsided and rectangles tragically skewed.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+The solution is **Cursor Crafter** — a fun, interactive game that challenges players to draw perfect shapes, instantly scores their accuracy, and saves results, ensuring no circle, rectangle, or triangle ever suffers from uneven edges again.
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML – for structuring the game interface
+  CSS – for styling and layout design
+  JavaScript – for drawing logic, scoring system, and canvas interactions
+  Python (Flask) – for backend server and API handling
+  SQL (SQLite) – for storing player scores
+
+- Frameworks used
+  Flask – Python web framework for backend and API routes
+
+- Libraries used
+  SQLite3 – for database operations in Python
+  Time (Python standard library) – for timestamp handling
+  OS (Python standard library) – for file and path handling
+  JSON (built-in via Flask) – for request/response data formatting
+
+- Tools used
+  Visual Studio Code– for coding and project development
+  Web Browser (e.g., Chrome/Firefox) – for running and testing the game
+  SQLite Database Browser / DB Browser for SQLite – for viewing and managing stored scores
+Flask Development Server – for running the backend locally
+
 
 For Hardware:
 - [List main components]

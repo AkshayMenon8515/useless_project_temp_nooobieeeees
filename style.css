@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  margin: 0;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 820px;
+  max-width: 95%;
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #2d2d2d;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.controls {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.canvas-wrap {
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+canvas {
+  width: 760px;
+  height: 480px;
+  display: block;
+  border-radius: 4px;
+  border: 2px solid #d0bfff;
+}
+
+canvas.overlay {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  pointer-events: none;
+}
+
+.info {
+  margin-top: 8px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.debug {
+  font-size: 12px;
+  color: #444;
+}
+
+/* --- Button Styles --- */
+button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ff6b6b;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.1s ease;
+  outline: none;
+}
+
+button:hover {
+  background-color: #ff5252;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+  outline: 3px solid rgba(255, 107, 107, 0.4);
+  outline-offset: 2px;
+}
+
+/* --- Dropdown Styles --- */
+select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  background-color: white;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.2s ease;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #666;
+  background-color: #f4f4f4;
+}
+
+select:focus {
+  border-color: #888;
+  box-shadow: 0 0 0 3px rgba(161, 140, 209, 0.3);
+  outline: none;
+}
+
+/* --- Score Feedback Classes --- */
+#scoreDisplay {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.score-high {
+  background-color: #c8f7c5; /* Light green */
+  color: #2e7d32;           /* Dark green */
+}
+
+.score-medium {
+  background-color: #fff9c4; /* Light yellow */
+  color: #f57f17;            /* Amber */
+}
+
+.score-low {
+  background-color: #ffcdd2; /* Light red */
+  color: #c62828;            /* Dark red */
+}
