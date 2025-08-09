@@ -62,46 +62,13 @@ run using any browser
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+# Screenshots 
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 064828" src="https://github.com/user-attachments/assets/ff74aea7-6e6d-458a-8e27-2f075ff07c6f" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 064859" src="https://github.com/user-attachments/assets/3e921ceb-732c-45d7-b182-c615df81f5b9" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1920" height="1020" alt="Screenshot 2025-08-09 064939" src="https://github.com/user-attachments/assets/ab69d0ba-abe9-4edc-b871-baecf237d1e5" />
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Amal N V: JavaScript and Python
