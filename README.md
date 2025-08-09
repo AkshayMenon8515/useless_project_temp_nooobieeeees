@@ -45,21 +45,19 @@ For Software:
   Visual Studio Code– for coding and project development
   Web Browser (e.g., Chrome/Firefox) – for running and testing the game
   SQLite Database Browser / DB Browser for SQLite – for viewing and managing stored scores
-Flask Development Server – for running the backend locally
+  Flask Development Server – for running the backend locally
 
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+git clone https://github.com/AkshayMenon8515/useless_project_temp_nooobieeeees.git
+pip install flask
+python app.py
+http://127.0.0.1:5000
 
 # Run
-[commands]
+run using any browser
 
 ### Project Documentation
 For Software:
