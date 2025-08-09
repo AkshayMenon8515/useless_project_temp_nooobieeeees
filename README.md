@@ -62,12 +62,13 @@ run using any browser
 ### Project Documentation
 For Software:
 
-# Screenshots 
-<img width="1920" height="1020" alt="Screenshot 2025-08-09 064828" src="https://github.com/user-attachments/assets/ff74aea7-6e6d-458a-8e27-2f075ff07c6f" />
+# Screenshots
+![WhatsApp Image 2025-08-09 at 7 17 26 AM](https://github.com/user-attachments/assets/5467750b-e281-44f1-a1a6-5368c446e72f)
 
-<img width="1920" height="1020" alt="Screenshot 2025-08-09 064859" src="https://github.com/user-attachments/assets/3e921ceb-732c-45d7-b182-c615df81f5b9" />
+![WhatsApp Image 2025-08-09 at 7 22 36 AM](https://github.com/user-attachments/assets/8ed7ecd5-f4a1-4659-9593-7159c23dcb6f)
 
-<img width="1920" height="1020" alt="Screenshot 2025-08-09 064939" src="https://github.com/user-attachments/assets/ab69d0ba-abe9-4edc-b871-baecf237d1e5" />
+![WhatsApp Image 2025-08-09 at 7 22 54 AM](https://github.com/user-attachments/assets/4587ce28-0464-4e9c-8a69-f7ba648af7c1)
+
 
 
 ## Team Contributions
